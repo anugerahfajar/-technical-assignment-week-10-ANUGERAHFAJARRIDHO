@@ -19,10 +19,10 @@ def build_payload(variable_1, variable_2, variable_3, variable_4, variable_5, va
     value_2 = random.randint(0, 85)
     value_3 = random.randint(0, 10)
     value_4 = random.randint(10, 60)
-    value_5 = random.uniform(1, 2)  # Nilai tetap antara 1 dan 2 untuk "loadcell-plastik"
-    value_6 = random.uniform(1, 2)  # Nilai tetap antara 1 dan 2 untuk "loadcell-logam"
-    value_7 = random.uniform(1,2)  # Nilai tetap antara 1 dan 2 untuk "loadcell-others"
-    value_8 = random.uniform(1, 2)  # Nilai tetap antara 1 dan 2 untuk "loadcell-kertas"
+    value_5 = random.uniform(1, 2)  
+    value_6 = random.uniform(1, 2) 
+    value_7 = random.uniform(1,2)  
+    value_8 = random.uniform(1, 2)  
 
     lat = random.randrange(34, 36, 1) + random.randrange(1, 1000, 1) / 1000.0
     lng = random.randrange(-83, -87, -1) + random.randrange(1, 1000, 1) / 1000.0
